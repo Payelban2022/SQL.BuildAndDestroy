@@ -1,0 +1,10 @@
+CREATE TABLE Students(
+Student_Name VARCHAR(50) NOT NULL
+Address VARCHAR(50)
+CITY VARCHAR(50)
+POSTALCODE varchar(50)
+COUNTRY VARCHAR(50)
+);
+
+INSERT INTO Students(Student_Name,Address,CITY,POSTALCODE,COUNTRY)
+VALUES ('JANE DOE', '57 UNION St', 'Glasgow','G13RB','Scotland')
